@@ -15,6 +15,15 @@
 		4828EF2C1DDDF61A00BF2976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4828EF2A1DDDF61A00BF2976 /* LaunchScreen.storyboard */; };
 		4828EF371DDDF61A00BF2976 /* OKBannerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828EF361DDDF61A00BF2976 /* OKBannerDemoTests.m */; };
 		4828EF421DDDF61A00BF2976 /* OKBannerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828EF411DDDF61A00BF2976 /* OKBannerDemoUITests.m */; };
+		4828EF541DDDF65500BF2976 /* OKBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828EF511DDDF65500BF2976 /* OKBannerView.m */; };
+		4828EF551DDDF65500BF2976 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4828EF531DDDF65500BF2976 /* StyledPageControl.m */; };
+		4828EF591DDDF90F00BF2976 /* bannerDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4828EF581DDDF90F00BF2976 /* bannerDelete@2x.png */; };
+		4828EF5D1DDDFC0C00BF2976 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4828EF5A1DDDFC0C00BF2976 /* 1.jpg */; };
+		4828EF5E1DDDFC0C00BF2976 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4828EF5B1DDDFC0C00BF2976 /* 5.jpg */; };
+		4828EF5F1DDDFC0C00BF2976 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4828EF5C1DDDFC0C00BF2976 /* 6.jpg */; };
+		4828EF631DDDFC1900BF2976 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4828EF601DDDFC1900BF2976 /* 2.jpg */; };
+		4828EF641DDDFC1900BF2976 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4828EF611DDDFC1900BF2976 /* 3.jpg */; };
+		4828EF651DDDFC1900BF2976 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4828EF621DDDFC1900BF2976 /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,17 @@
 		4828EF3D1DDDF61A00BF2976 /* OKBannerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OKBannerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4828EF411DDDF61A00BF2976 /* OKBannerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKBannerDemoUITests.m; sourceTree = "<group>"; };
 		4828EF431DDDF61A00BF2976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4828EF501DDDF65500BF2976 /* OKBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKBannerView.h; sourceTree = "<group>"; };
+		4828EF511DDDF65500BF2976 /* OKBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKBannerView.m; sourceTree = "<group>"; };
+		4828EF521DDDF65500BF2976 /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
+		4828EF531DDDF65500BF2976 /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
+		4828EF581DDDF90F00BF2976 /* bannerDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerDelete@2x.png"; sourceTree = "<group>"; };
+		4828EF5A1DDDFC0C00BF2976 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		4828EF5B1DDDFC0C00BF2976 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		4828EF5C1DDDFC0C00BF2976 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		4828EF601DDDFC1900BF2976 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4828EF611DDDFC1900BF2976 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4828EF621DDDFC1900BF2976 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +121,18 @@
 		4828EF1B1DDDF61900BF2976 /* OKBannerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4828EF4F1DDDF64B00BF2976 /* OKBanner */,
 				4828EF1F1DDDF61900BF2976 /* AppDelegate.h */,
 				4828EF201DDDF61A00BF2976 /* AppDelegate.m */,
 				4828EF221DDDF61A00BF2976 /* ViewController.h */,
 				4828EF231DDDF61A00BF2976 /* ViewController.m */,
 				4828EF251DDDF61A00BF2976 /* Main.storyboard */,
+				4828EF5A1DDDFC0C00BF2976 /* 1.jpg */,
+				4828EF5B1DDDFC0C00BF2976 /* 5.jpg */,
+				4828EF601DDDFC1900BF2976 /* 2.jpg */,
+				4828EF611DDDFC1900BF2976 /* 3.jpg */,
+				4828EF621DDDFC1900BF2976 /* 4.jpg */,
+				4828EF5C1DDDFC0C00BF2976 /* 6.jpg */,
 				4828EF281DDDF61A00BF2976 /* Assets.xcassets */,
 				4828EF2A1DDDF61A00BF2976 /* LaunchScreen.storyboard */,
 				4828EF2D1DDDF61A00BF2976 /* Info.plist */,
@@ -138,6 +165,18 @@
 				4828EF431DDDF61A00BF2976 /* Info.plist */,
 			);
 			path = OKBannerDemoUITests;
+			sourceTree = "<group>";
+		};
+		4828EF4F1DDDF64B00BF2976 /* OKBanner */ = {
+			isa = PBXGroup;
+			children = (
+				4828EF581DDDF90F00BF2976 /* bannerDelete@2x.png */,
+				4828EF501DDDF65500BF2976 /* OKBannerView.h */,
+				4828EF511DDDF65500BF2976 /* OKBannerView.m */,
+				4828EF521DDDF65500BF2976 /* StyledPageControl.h */,
+				4828EF531DDDF65500BF2976 /* StyledPageControl.m */,
+			);
+			path = OKBanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +241,7 @@
 		4828EF111DDDF61900BF2976 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Lengshengren;
 				TargetAttributes = {
 					4828EF181DDDF61900BF2976 = {
@@ -249,9 +288,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4828EF641DDDFC1900BF2976 /* 3.jpg in Resources */,
+				4828EF5F1DDDFC0C00BF2976 /* 6.jpg in Resources */,
 				4828EF2C1DDDF61A00BF2976 /* LaunchScreen.storyboard in Resources */,
+				4828EF591DDDF90F00BF2976 /* bannerDelete@2x.png in Resources */,
 				4828EF291DDDF61A00BF2976 /* Assets.xcassets in Resources */,
+				4828EF5E1DDDFC0C00BF2976 /* 5.jpg in Resources */,
 				4828EF271DDDF61A00BF2976 /* Main.storyboard in Resources */,
+				4828EF631DDDFC1900BF2976 /* 2.jpg in Resources */,
+				4828EF651DDDFC1900BF2976 /* 4.jpg in Resources */,
+				4828EF5D1DDDFC0C00BF2976 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +324,9 @@
 			files = (
 				4828EF241DDDF61A00BF2976 /* ViewController.m in Sources */,
 				4828EF211DDDF61A00BF2976 /* AppDelegate.m in Sources */,
+				4828EF541DDDF65500BF2976 /* OKBannerView.m in Sources */,
 				4828EF1E1DDDF61900BF2976 /* main.m in Sources */,
+				4828EF551DDDF65500BF2976 /* StyledPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +399,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,6 +448,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -516,6 +566,7 @@
 				4828EF481DDDF61A00BF2976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4828EF491DDDF61A00BF2976 /* Build configuration list for PBXNativeTarget "OKBannerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +575,7 @@
 				4828EF4B1DDDF61A00BF2976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4828EF4C1DDDF61A00BF2976 /* Build configuration list for PBXNativeTarget "OKBannerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +584,7 @@
 				4828EF4E1DDDF61A00BF2976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
